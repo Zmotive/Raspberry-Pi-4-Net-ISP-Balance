@@ -7,7 +7,7 @@ http://lstein.github.io/Net-ISP-Balance/
 
 Before Heading 2 use this code instead of what they have listed on the document's site:
 ***note:*** all perl steps are done with sudo since pearl installs modules local to the use that executed it (yes there is probably a better/safer way)
-<code>
+```bash
 #Basic Raspbery pi updates
 sudo apt update
 sudo apt upgrade
@@ -32,7 +32,7 @@ sudo perl ./Build.PL
 sudo ./Build installdeps
 sudo ./Build test
 sudo ./Build install
-</code>
+```
 
 from there continue with the install at http://lstein.github.io/Net-ISP-Balance/
 
